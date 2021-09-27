@@ -33,13 +33,18 @@ My name is Shamim. I'm working over 6+ years on Web Development. Basically i'm h
 ### Registration new user using API.
 1. Endpoind. https://yoursite.com/api/register
 2. Request Field:
-   a) name (required)
-   b) email (required)
-   c) password (required)
-   d) password_confirmation (required)
+ 
+ ```sh
+  {
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "password_confirmation": "string",
+}
+   ```
 
 Response.
-
+   
  ```sh
   {
     "status": 1,
