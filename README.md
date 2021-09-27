@@ -64,7 +64,7 @@ Response.
    ### Login user using API.
    . Endpoind. https://yoursite.com/api/login
 
-   -Request
+   Request
 
     ```sh
   {
