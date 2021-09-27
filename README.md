@@ -21,10 +21,36 @@ My name is Shamim. I'm working over 6+ years on Web Development. Basically i'm h
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/shamimbdpro/laravel-api-development-with-sanctum-package.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-3. Change usernamme and password on .eve file.
+3. Change username and password on .eve file.
+
+
+### Registration new user using API.
+1. Endpoind. https://yoursite.com/api/register
+2. Request Field:
+   a) name (required)
+   b) email (required)
+   c) password (required)
+   d) password_confirmation (required)
+
+Response.
+
+ ```sh
+  {
+    "status": 1,
+    "message": "User Registration Sucessfull",
+    "token": "8|bJMenOt2q7EyFh1fkti8NXnD5W2z4dAK8DlOmnFF",
+    "data": {
+        "name": "shamim",
+        "email": "shamim4@gmail.com",
+        "updated_at": "2021-09-27T05:12:24.000000Z",
+        "created_at": "2021-09-27T05:12:24.000000Z",
+        "id": 4
+    }
+}
+   ```
