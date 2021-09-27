@@ -38,6 +38,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
 
     // Delete Product By ID.
     Route::delete('product-delete/{id}', [ProductController::class, 'delete']);
+    
 });
 
 
