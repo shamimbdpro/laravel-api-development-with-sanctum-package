@@ -59,3 +59,27 @@ Response.
     }
 }
    ```
+
+
+   ### Login user using API.
+   . Endpoind. https://yoursite.com/api/login
+
+   -Request
+
+    ```sh
+  {
+    "email": "string",
+    "password": "string",
+}
+   ```
+
+
+   Response.
+   
+ ```sh
+{
+    "status": 1,
+    "message": "User Loggin Successfully.",
+    "access_token": "11|q4eYsrp2D6syVrfnc4Z6IjZYSnM11RXtv6PWQAUw"
+}
+   ```
