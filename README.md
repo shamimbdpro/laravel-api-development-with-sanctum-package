@@ -10,6 +10,7 @@ My name is Shamim. I'm working over 6+ years on Web Development. Basically i'm h
 
 - Registration new user using API.
 - Login user using API.
+- Logout user using API.
 
 - Create Product using API.
 - Show all product list using API.
@@ -67,10 +68,10 @@ Response.
    Request.
 
     ```sh
-  {
+    {
     "email": "string",
     "password": "string",
-}
+    }
    ```
 
 

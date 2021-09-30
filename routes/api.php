@@ -19,10 +19,12 @@ use App\Http\Controllers\AuthController;
 
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
-Route::delete('logout', [AuthController::class, 'logout']);
 
 
 Route::group(['middleware' => 'auth:sanctum'], function () {
+
+    // Logout User.
+    Route::get('logout', [AuthController::class, 'logout']);
 
     // Get All Product.
     Route::get('product-list', [ProductController::class, 'index']);
