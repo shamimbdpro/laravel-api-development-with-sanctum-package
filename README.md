@@ -1,10 +1,10 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <div class="button-group minor-group">
-    <a target="_blank" href="https://codepopular.com" class="big button primary">Visit My Website</a>
-    <a target="_blank" href="https://www.fiverr.com/shamimtpi?up_rollout=true" class="big button">Hire me on fiverr</a>
-    <a target="_blank" href="https://www.upwork.com/freelancers/~017fb32e9d045c4ef3" class="big button">Hire me on Upwork</a>
-    <a target="_blank" href="https://www.youtube.com/codepopular?sub_confirmation=1" class="big button">Learn From My Youtube Channel.</a>
+    <li><a target="_blank" href="https://codepopular.com" class="big button primary">Visit My Website</a> </li>
+    <li><a target="_blank" href="https://www.fiverr.com/shamimtpi?up_rollout=true" class="big button">Hire me on fiverr</a></li>
+    <li><a target="_blank" href="https://www.upwork.com/freelancers/~017fb32e9d045c4ef3" class="big button">Hire me on Upwork</a></li>
+    <li><a target="_blank" href="https://www.youtube.com/codepopular?sub_confirmation=1" class="big button">Learn From My Youtube Channel.</a></li>
 </div>
 
 
